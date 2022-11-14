@@ -162,16 +162,24 @@ ul {
     position: bottom;
 }
 
-.footer {
-    position: bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.grid-container {
+    width: 101%;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 10px;
+    margin-top: 10px;
     background-color: brown;
-    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    
+  }
+
+  .grid-container > div {
+    border: 1px solid burlywood;
+    border-radius: 25px;
+    background-color: burlywood;
   }
 
   .container {
