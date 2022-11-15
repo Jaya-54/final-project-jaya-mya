@@ -1,3 +1,7 @@
+let introduction = prompt("Hello, welcome to the dormire! What is your name?");
+console.log(introduction);
+let customer_name = (introduction);
+
 function autoplayCarousel() {
     const carouselEl = document.getElementById("carousel");
     const slideContainerEl = carouselEl.querySelector("#slide-container");
