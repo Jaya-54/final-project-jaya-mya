@@ -1,6 +1,20 @@
-let introduction = prompt("Hello, welcome to the dormire! What is your name?");
+let introduction = prompt("Hello, welcome to the dormire!");
 console.log(introduction);
 let customer_name = (introduction);
+
+let question = "Hi " + customer_name + ", do you have a question about our restaurant?";
+let answer = prompt(question);
+console.log(answer)
+let yes = "Send us a direct message on one of our social media pages!";
+console.log("The variable tvShow holds the value:" + yes);
+let no = "Ah, we hope you find everything you need on our website! ";
+console.log("The variable tvShow holds the value:" + no);
+if(answer === "yes"){
+    alert(yes);
+}
+else {
+    alert(no);
+};
 
 function autoplayCarousel() {
     const carouselEl = document.getElementById("carousel");
